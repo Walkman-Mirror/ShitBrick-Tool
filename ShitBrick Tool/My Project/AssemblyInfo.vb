@@ -1,4 +1,6 @@
-﻿Imports System
+﻿Imports System.Resources
+
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -9,13 +11,13 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("ShitBrick Tool")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyDescription("YAY! FIX DEPENDANCY ISSUE WITH DOTNETBAR2.")> 
+<Assembly: AssemblyCompany("Deavmi")> 
 <Assembly: AssemblyProduct("ShitBrick Tool")> 
 <Assembly: AssemblyCopyright("Copyright © ShitBrick Tool 2013. All Rights Reserved.")> 
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyTrademark("IT R SHITTING BRCICKS")> 
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(False)> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("67cc88cb-4070-4dc6-aa8e-e6d38ec2063c")> 
@@ -31,5 +33,7 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.2")> 
+<Assembly: AssemblyVersion("1.0.0.3")> 
 <Assembly: AssemblyFileVersion("1.0.0.0")> 
+
+<Assembly: NeutralResourcesLanguageAttribute("en-ZA")> 

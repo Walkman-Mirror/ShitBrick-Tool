@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ShitBrick Tool")> 
+<Assembly: AssemblyTitle("ShitBrick Tool (Automated)")> 
 <Assembly: AssemblyDescription("YAY! FIX DEPENDANCY ISSUE WITH DOTNETBAR2.")> 
 <Assembly: AssemblyCompany("Deavmi")> 
 <Assembly: AssemblyProduct("ShitBrick Tool")> 

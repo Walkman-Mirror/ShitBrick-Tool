@@ -53,8 +53,9 @@ Partial Class SelectArch
         Me.YouAreASHit.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.YouAreASHit.Location = New System.Drawing.Point(15, 38)
         Me.YouAreASHit.Name = "YouAreASHit"
-        Me.YouAreASHit.Size = New System.Drawing.Size(0, 18)
+        Me.YouAreASHit.Size = New System.Drawing.Size(209, 18)
         Me.YouAreASHit.TabIndex = 2
+        Me.YouAreASHit.Text = "Please select you architecture:"
         '
         'Button1
         '
@@ -82,7 +83,7 @@ Partial Class SelectArch
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "SelectArch"
+        Me.Text = "Select Arch"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

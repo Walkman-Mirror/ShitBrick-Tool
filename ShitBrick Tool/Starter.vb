@@ -6,7 +6,7 @@
         Console.WriteLine("NOTICE: To fix the bug you will need administration rights.")
         Console.ReadLine()
         Dim archseletor As SelectArch = New SelectArch
-        archseletor.Show()
+        System.Windows.Forms.Application.Run(archseletor)
         Detection.Main()
     End Sub
 

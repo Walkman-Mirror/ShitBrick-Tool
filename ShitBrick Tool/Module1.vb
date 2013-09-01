@@ -21,7 +21,7 @@
         Console.WriteLine()
         Console.WriteLine("                          Press any key to continue...")
         Console.WriteLine()
-        Console.WriteLine()
+        Console.WriteLine("        Please note that this application must be run as administrator!")
         Console.WriteLine("             " & My.Application.Info.Copyright)
         Console.WriteLine()
         Console.WriteLine("################################################################################")

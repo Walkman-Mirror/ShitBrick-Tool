@@ -26,6 +26,9 @@
         Console.WriteLine()
         Console.WriteLine("################################################################################")
         Console.ReadLine()
+        'This needed to be added (Fix for issue "Doesn't work (#1)")
+        'Thanks to Walkman100 for helping on picking up this bug.
+        Starter.Main()
     End Sub
 
 End Module

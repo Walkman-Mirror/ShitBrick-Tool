@@ -1,54 +1,18 @@
 ﻿Imports System.IO
 Module Detection
-
     Sub Main()
         Console.WriteLine("Checking if the dynamic link library exists...")
-        If My.Settings.SHITTTER = "32-Bit" Then
-            Dim pathtocheck32bit As String = "C:\Program Files\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll"
-            Console.WriteLine("Checking in the following path " & pathtocheck32bit.ToString)
-
-
-
-
-
-            If File.Exists(pathtocheck32bit.ToString) = True Then
-                Console.WriteLine("FILE EXISTS! NO NEED TO RE-INSTALL")
-                MsgBox("FILE EXISTS! NO NEED TO RE-INSTALL")
-            Else
-                Console.WriteLine("FILE DOES NOT EXIST! YOU NEED TO INSTALL")
-                MsgBox("FILE DOES NOT EXIST! YOU NEED TO INSTALL. Click OK to continue to the installation process. (You will be prompted again to confirm the fix.)")
-                Fixer.Main()
-            End If
+        Dim pathtocheck32bit As String = "C:\Program Files\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll"
+        Console.WriteLine("Checking in the following path " & pathtocheck32bit.ToString)
+        If File.Exists(pathtocheck32bit.ToString) = True Then
+            Console.WriteLine("FILE EXISTS! NO NEED TO RE-INSTALL")
+            MsgBox("FILE EXISTS! NO NEED TO RE-INSTALL")
+        Else
+            Console.WriteLine("FILE DOES NOT EXIST! YOU NEED TO INSTALL")
+            MsgBox("FILE DOES NOT EXIST! YOU NEED TO INSTALL. Click OK to continue to the installation process. (You will be prompted again to confirm the fix.)")
+            Fixer.Main()
         End If
-        If My.Settings.SHITTTER = "64-Bit" Then
-            Dim pathtocheck64bit As String = "C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll"
-            Console.WriteLine("Checking in the following path " & pathtocheck64bit.ToString)
-
-
-
-
-
-            If File.Exists(pathtocheck64bit.ToString) = True Then
-                Console.WriteLine("FILE EXISTS! NO NEED TO RE-INSTALL")
-                MsgBox("FILE EXISTS! NO NEED TO RE-INSTALL")
-            Else
-                Console.WriteLine("FILE DOES NOT EXIST! YOU NEED TO INSTALL")
-                MsgBox("FILE DOES NOT EXIST! YOU NEED TO INSTALL. Click OK to continue to the installation process. (You will be prompted again to confirm the fix.)")
-                Fixer.Main()
-            End If
-        End If
-
-        If My.Settings.SHITTTER = "69-Bit" Then
-            Console.Title = "PIELIE IS MOOI!"
-            Console.BackgroundColor = ConsoleColor.Red
-            Console.ForegroundColor = ConsoleColor.Yellow
-            Do
-                Console.WriteLine("PIELIE IS MOOI! PIELIE IS MOOI! PIELIE IS MOOI! PIELIE IS MOOI! ")
-            Loop
-        End If
-
     End Sub
-
 End Module
 
 

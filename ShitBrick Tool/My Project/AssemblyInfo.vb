@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("ShitBrick Tool")> 
 <Assembly: AssemblyDescription("YAY! FIX DEPENDANCY ISSUE WITH DOTNETBAR2.")> 
-<Assembly: AssemblyCompany("Deavmi")> 
+<Assembly: AssemblyCompany("Crowbar")> 
 <Assembly: AssemblyProduct("ShitBrick Tool")> 
 <Assembly: AssemblyCopyright("Copyright © ShitBrick Tool 2013. All Rights Reserved.")> 
 <Assembly: AssemblyTrademark("IT R SHITTING BRCICKS")> 
